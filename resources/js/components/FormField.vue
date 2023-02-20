@@ -32,7 +32,7 @@ export default {
     openUploadcare() {
       uploadcare.openDialog(null, {
         publicKey: this.field.key,
-        multiple: false,
+        multiple: true,
         crop: false,
         tabs: 'file url camera dropbox gdrive box skydrive',
         previewStep: true,
